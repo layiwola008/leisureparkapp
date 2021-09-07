@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+button, input[type="text"] {
+  padding: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+li, img {
+  max-width: 500px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: grey;
+  padding: 5px 15px;
+  font-size: 23px;
+  border-radius: 10px;
+}
+
+.error-message {
+    color: red;
+}
+
+.hidden {
+  display: none;
+}
+#results {
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightskyblue;
+  }
+  .container {
+    width: 92%;
+    padding: 5px 15px;
+    font-size: 13px;
+    border-radius: 10px;
+  }
+}
